@@ -534,7 +534,7 @@ function drawSVG(dataset,mapData){
     let step2txt = svg.append('g')
       .attr('id','step2txt')  
       .append('text')
-        .attr('x',default_width / 3)
+        .attr('x',default_width / 2.75)
         .attr('y',default_height / 2.25)
         .attr('fill','white')
         .attr('opacity',0)
