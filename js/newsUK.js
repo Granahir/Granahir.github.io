@@ -745,7 +745,7 @@ document.addEventListener('scroll',() => {
         let start = 0
         let end = totalWealth
         let interpolator = d3.interpolateNumber(start,end)
-        return t => selection.text('$'+Math.round(interpolator(t))+' Billion') 
+        return t => selection.text('$'+Math.round(interpolator(t))+' Billions') 
     })
 
 
