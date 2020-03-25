@@ -18,7 +18,7 @@ div.section {
 div.title_block {
 	margin: 0 auto;
 	width: 45em;
-	transform: translate(0, 200%);
+	transform: translate(0, 175%);
 }
 text#title {
 	font-size: 3.5em;
@@ -58,7 +58,7 @@ div#step2para {
     text-align: justify;
     color: white;
     opacity: 0;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
 }
 
 div#step4para {
@@ -67,7 +67,7 @@ div#step4para {
     width: 90%;
     top: 75%;
     right: 5%;
-    font-size: 19px;
+    font-size: 1em;
     text-align: justify;
     color: lightgray;
     opacity: 0;
