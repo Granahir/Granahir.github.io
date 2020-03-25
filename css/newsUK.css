@@ -17,13 +17,13 @@ div.section {
 /* Text & Font */
 div.title_block {
 	margin: 0 auto;
-	width: 700px;
-	transform: translate(0, 225%);
+	width: 45em;
+	transform: translate(0, 200%);
 }
 text#title {
-	font-size: 56px;
+	font-size: 3.5em;
 	font-weight: bold;
-	line-height: 82px;
+	line-height: 1.5em;
 	background-color: #ffffff;
 }
 
@@ -40,10 +40,10 @@ div.paragraph_block text {
 
 div.question_block {
 	margin: 0 auto;
-	width: 600px;
+	width: 30em;
 }
 div.question_block text {
-	font-size: 37px;
+	font-size: 2em;
 	color: gray;
 	background-color: #ffffff;
 }
@@ -54,11 +54,11 @@ div#step2para {
     width: 20%;
     top: 10%;
     right: 5%;
-    font-size: 19px;
+    font-size: 1em;
     text-align: justify;
-    color: orange;
+    color: white;
     opacity: 0;
-    background-color: #ffffff;
+    border: solid black;
 }
 
 div#step4para {
@@ -80,7 +80,7 @@ div#step5para {
     width: 15%;
     top: 10%;
     left: 5%;
-    font-size: 19px;
+    font-size: 1em;
     text-align: justify;
     color: lightgray;
     opacity: 0;
@@ -93,7 +93,7 @@ div#step6para {
     width: 50%;
     top: 10%;
     left: 25%;
-    font-size: 19px;
+    font-size: 1em;
     text-align: justify;
     color: gray;
     opacity: 0;
@@ -107,7 +107,7 @@ footer {
 }
 footer p{
 	font-family: 'Open Sans';
-	font-size: 12px;
+	font-size: 0.8em;
 	color: gray;
 }
 
@@ -115,13 +115,13 @@ footer p{
 /* SVG */
 g#step2txt text{
 	font-family: 'Open Sans';
-	font-size: 56px;
+	font-size: 3em;
 	font-weight: bold;
 }
 
 g#step6txt text{
 	font-family: 'Open Sans';
-	font-size: 56px;
+	font-size: 3em;
 	mix-blend-mode: color-dodge;
 }
 
