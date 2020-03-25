@@ -534,7 +534,7 @@ function drawSVG(dataset,mapData){
     let step2txt = svg.append('g')
       .attr('id','step2txt')  
       .append('text')
-        .attr('x',default_width / 2.5)
+        .attr('x',default_width / 3)
         .attr('y',default_height / 2.25)
         .attr('fill','white')
         .attr('opacity',0)
@@ -738,7 +738,7 @@ document.addEventListener('scroll',() => {
 
     circles
       .transition().duration(3000).delay(3000)
-      .attr('r', d => circlesScale(totalWealth)*3)
+      .attr('r', d => circlesScale(totalWealth)*2)
 
     step2txt.transition().duration(3000).delay(3000).attrTween('text',() => {
         let selection = step2txt
