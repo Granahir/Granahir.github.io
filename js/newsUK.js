@@ -546,6 +546,7 @@ function drawSVG(dataset,mapData){
 
     let step4txt = svg.append('g')
       .attr('id','step4txt')
+      .style('text-shadow','-0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white')
       .style('opacity',0)
 
     svg.select('#step4txt').selectAll('#step4region')
