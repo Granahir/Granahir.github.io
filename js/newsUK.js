@@ -738,7 +738,7 @@ document.addEventListener('scroll',() => {
 
     circles
       .transition().duration(3000).delay(3000)
-      .attr('r', d => circlesScale(totalWealth)*2)
+      .attr('r', d => circlesScale(totalWealth)*2.25)
 
     step2txt.transition().duration(3000).delay(3000).attrTween('text',() => {
         let selection = step2txt
