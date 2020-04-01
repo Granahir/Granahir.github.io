@@ -723,6 +723,7 @@ document.addEventListener('scroll',() => {
     last_call = 'step2'
     
     force.stop()
+    resetForce()
 
     map.transition().duration(1000).style('opacity',0)
     polylines.transition().duration(1000).style('opacity',0)
@@ -854,6 +855,7 @@ document.addEventListener('scroll',() => {
     last_call = 'step5'
     
     force.stop()
+    resetForce()
 
     map.transition().duration(3000).style('opacity',0)
     polylines.transition().duration(1000).style('opacity',0)
@@ -914,6 +916,7 @@ document.addEventListener('scroll',() => {
     last_call = 'step6'
 
     force.stop()
+    resetForce()
 
     map.transition().duration(3000).style('opacity',0)
     polylines.transition().duration(1000).style('opacity',0)
