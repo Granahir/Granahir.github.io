@@ -1,0 +1,108 @@
+:root {
+	--light-blue: #41b6e6;
+	--blue: #0028a0;
+	--cyan: #009fdf;
+	--dark-blue: #002e5d;
+	--light-green: #78be20;
+	--green: #009775;
+	--teal: #008c95;
+	--yellow: #fdd824;
+	--purple: #5c068c;
+	--magenta: #d9017a;
+	--red: #ba0c2f;
+	--orange: #e35205;
+
+	--black: #000;
+	--dark-gray:  #55565a;
+	--gray:  #75787b;
+	--light-gray:  #cac9c7;
+	--extra-light-gray:  #f0f0f1;
+
+	--black-text: #343441;
+}
+html,
+body {
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  body {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  background: white;
+  font-family: Calibri, "Helvetica Neue", Arial, sans-serif;
+}
+
+.embed-space {
+  margin: 0;
+  padding: 0;
+  min-height: 20rem;
+}
+
+.embed-container {
+  width: min(100%, 1240px);
+  min-height: 20rem;
+  margin: 0 auto;
+}
+
+.column-container {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 5;
+}
+.text-container {
+  position: relative;
+  width: min(100%, 60ch);
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.1rem 1rem;
+  background-color: #ffffffe8;
+}
+
+.small-multiple-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  box-sizing: border-box;
+}
+
+.layercake-container {
+  width: 100%;
+  height: 100%;
+}
+
+.placeholder {
+  width: 100%;
+  min-height: 20rem;
+  outline: dotted var(--light-gray);
+}
+body {
+  font-size: 0.825rem;
+  font-family: 'Signika', cursive;
+  line-height: 1.25;
+  color: var(--black-text);
+}
+
+@media screen and (max-width: 800px) {
+  :root{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  :root{
+    font-size: 11px;
+  }
+}

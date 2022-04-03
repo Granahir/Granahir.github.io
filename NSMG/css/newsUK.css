@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	opacity: 0;
+	font-size: medium;
+	font-family: 'Open Sans';
+	text-align:center;
+	cursor: default;
+}
+
+/* Position */
+div.section {
+	height: 0;
+	width: 100%;
+	position: absolute; 
+}
+
+/* Text & Font */
+div.title_block {
+	margin: 0 auto;
+	width: 45em;
+	transform: translate(0, 175%);
+}
+text#title {
+	font-size: 3.5em;
+	font-weight: bold;
+	line-height: 1.5em;
+	background-color: #ffffff;
+}
+
+div.paragraph_block {
+	margin: 0 auto;
+	width: 45em;
+	text-align:justify;
+}
+div.paragraph_block text {
+	font-size: 1em;
+	background-color: #ffffff;
+}
+
+div.question_block {
+	margin: 0 auto;
+	width: 30em;
+}
+div.question_block text {
+	font-size: 2em;
+	color: gray;
+	background-color: #ffffff;
+}
+
+div#step2para {
+	position: fixed;
+    padding: 2%;
+    width: 20%;
+    top: 10%;
+    right: 5%;
+    font-size: 1em;
+    text-align: justify;
+    color: orange;
+    opacity: 0;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+div#step4para {
+    position: fixed;
+    padding: 2%;
+    width: 90%;
+    top: 75%;
+    right: 5%;
+    font-size: 1em;
+    text-align: justify;
+    color: lightgray;
+    opacity: 0;
+    background-color: #ffffff;
+}
+
+div#step5para {
+	position: fixed;
+    padding: 1%;
+    width: 17.5%;
+    top: 1%;
+    left: 2%;
+    font-size: 1em;
+    text-align: justify;
+    color: lightgray;
+    opacity: 0;
+    background-color: #ffffff;
+}
+
+div#step6para {
+    position: fixed;
+    padding: 2%;
+    width: 50%;
+    top: 10%;
+    left: 25%;
+    font-size: 1em;
+    text-align: justify;
+    color: gray;
+    opacity: 0;
+    background-color: #ffffff;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	mix-blend-mode: color-dodge;
+}
+footer p{
+	font-family: 'Open Sans';
+	font-size: 0.8em;
+	color: gray;
+}
+
+
+/* SVG */
+g#step2txt text{
+	font-family: 'Open Sans';
+	font-size: 3em;
+	font-weight: bold;
+}
+
+g#step6txt text{
+	font-family: 'Open Sans';
+	font-size: 3em;
+	mix-blend-mode: color-dodge;
+}
+
+
+path {
+  stroke: gray;
+  stroke-width: 0.25px;
+  fill: white;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 10px;
+}
