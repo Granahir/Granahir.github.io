@@ -1,1 +1,0 @@
-import{S as l,i,s as r,e as c,b as o,c as _,n as s,h as d}from"./index-da90f7af.js";function p(n){let e;return{c(){e=c("div"),e.innerHTML='<h1 class="svelte-175eqb8">Celebrating 🍕</h1>',o(e,"class","slide-content svelte-175eqb8")},m(t,a){_(t,e,a)},p:s,i:s,o:s,d(t){t&&d(e)}}}class v extends l{constructor(e){super(),i(this,e,null,p,r,{})}}export{v as default};
